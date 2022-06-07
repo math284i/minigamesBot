@@ -6,6 +6,7 @@ using Discord.WebSocket;
 using System.Linq;
 using Discord.Commands;
 using Microsoft.AspNetCore.CookiePolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
