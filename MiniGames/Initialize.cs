@@ -16,6 +16,7 @@ namespace MiniGames
 {
     public class Initialize
     {
+        //Eloha
         private readonly CommandService _commands;
         private readonly DiscordSocketClient _client;
         private readonly IConfiguration _config;
