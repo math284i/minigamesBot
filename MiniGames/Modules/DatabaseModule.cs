@@ -48,7 +48,7 @@ namespace MiniGames.Modules
         [Alias("B")]
         public async Task BalanceAsync(SocketUser user = null)
         {
-            var userInfo = user ?? Context.Client.CurrentUser;
+            var userInfo = user ?? Context.User;
             var userDataFromDB = GetDataFromDatabase(userInfo);
             await ReplyAsync($"Your balance is {userDataFromDB.Coins} coin(s)");
         }
